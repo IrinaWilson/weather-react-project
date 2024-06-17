@@ -1,0 +1,27 @@
+.left {
+  font-family: "Poppins", sans-serif;
+  display: block;
+  padding-top: 28px;
+}
+
+.date {
+  font-style: italic;
+  color: #3b545c;
+  padding: 15px;
+}
+.city {
+  font-weight: 500;
+  font-size: 60px;
+  color: #3b545c;
+  text-shadow: rgba(0, 0, 0, 0.288) 1px 0 7px;
+  font-family: "Poppins", sans-serif;
+}
+.time {
+  font-weight: 500;
+  font-size: 45px;
+  color: rgba(255, 255, 255, 0.838);
+  text-shadow: rgba(0, 0, 0, 0.349) 1px 0 7px;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}

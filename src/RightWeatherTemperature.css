@@ -1,0 +1,69 @@
+.right {
+  font-family: "Poppins", sans-serif;
+  display: block;
+  padding-top: 28px;
+}
+
+img {
+  vertical-align: middle;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  width: 80px;
+}
+
+.units {
+  line-height: 4;
+  font-size: 20px;
+  position: relative;
+  float: inline-end;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.288) 1px 0 7px;
+}
+
+.temperature {
+  font-size: 60px;
+  float: left;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.838);
+  text-shadow: rgba(0, 0, 0, 0.288) 1px 0 7px;
+  line-height: 2;
+}
+
+.weatherTemperature .active {
+  color: black;
+  cursor: default;
+}
+.weatherTemperature .active:hover {
+  text-decoration: none;
+}
+
+.weatherTemperature a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  color: #3a4547;
+  text-shadow: rgba(0, 0, 0, 0.37) 1px 0 7px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 60px;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
