@@ -8,11 +8,11 @@ export default function Form() {
         type="text"
         placeholder="Type your city.."
         autocomplete="off"
-        autofocus="off"
+        autofocus="on"
         className="search"
         id="search-text-input"
       />
-      <input type="submit" class="search-button" value="Search" />
+      <input type="submit" className="search-button" value="Search" />
       <button className="second-button" id="getPosition">
         Current
       </button>
